@@ -7,15 +7,15 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.doc-content, 
+.doc-content,
 .page__content {
-  max-width: 1200px;  // Aumentato da 800px a 1200px
+  max-width: 1800px;  // Aumentato da 1200px a 1800px
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .page__share {
-  max-width: 1200px;  // Aumentato da 800px a 1200px
+  max-width: 1800px;  // Aumentato da 1200px a 1800px
   margin: 2em auto 0;
   padding: 0 20px;
 }
@@ -23,16 +23,24 @@
 // Modifica la larghezza del contenuto principale per schermi larghi
 @media (min-width: 80em) {
   .page {
-    width: calc(100% - 200px);
-    padding-right: 200px;
+    width: calc(100% - 300px);  // Aumentato lo spazio laterale
+    padding-right: 300px;  // Aumentato il padding destro
   }
 }
 
 // Aumenta la larghezza massima del contenuto per schermi molto larghi
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {  // Modificato il breakpoint da 1400px a 1600px
   .doc-content,
   .page__content,
   .page__share {
-    max-width: 1400px;
+    max-width: 1800px;  // Aumentato da 1400px a 1800px
+  }
+}
+
+// Aggiungi uno stile specifico per il layout doc_page
+.layout--doc_page {
+  .page__content {
+    font-size: 1.1em;  // Aumenta leggermente la dimensione del testo
+    line-height: 1.8;  // Aumenta lo spazio tra le righe per una migliore leggibilità
   }
 }
