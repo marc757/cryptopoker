@@ -4,6 +4,7 @@ name: "Marc757"
 description: "Un sito dedicato al poker e alle criptovalute."
 url: "https://marc757.github.io"
 baseurl: "/crypto-poker"
+locale: "it-IT"
 
 # Site Author
 author:
@@ -28,7 +29,7 @@ minimal_mistakes_skin: default
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Rome
 
 # Plugins
 plugins:
@@ -71,6 +72,29 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Search
+search: true
+
+# Navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "Posts"
+    url: /posts/
+  - title: "Categorie"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Chi Siamo"
+    url: /about/
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://marc757.github.io/crypto-poker/"
 
 # Search
 search: true
