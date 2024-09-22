@@ -64,6 +64,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+      path: "_docs"
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "docs"
+      classes: wide
 
 # Archives
 category_archive:
@@ -95,6 +108,3 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://marc757.github.io/crypto-poker/"
-
-# Search
-search: true
