@@ -2,7 +2,8 @@
 title: "Accessibilità Globale"
 permalink: /docs/accessibility/
 excerpt: "Gioca da qualsiasi parte del mondo senza restrizioni bancarie."
-layout: doc_page
+layout: single
+classes: wide
 ---
 
 # Accessibilità Globale nel Poker Crypto
