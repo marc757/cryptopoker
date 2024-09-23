@@ -13,36 +13,6 @@ body {
   color: #e0e0e0;
 }
 
-// Darker navigation bar
-.masthead {
-  background-color: #1a1a1a;
-}
-
-.greedy-nav {
-  background-color: #1a1a1a;
-
-  a {
-    color: #ffffff;
-
-    &:hover {
-      color: #4a4a4a;
-    }
-  }
-
-  .visible-links a:before {
-    background: #4a4a4a;
-  }
-}
-
-// Darker search toggle
-.search__toggle {
-  color: #ffffff;
-
-  &:hover {
-    color: #4a4a4a;
-  }
-}
-
 .page__content {
   color: #e0e0e0;
 }
@@ -53,6 +23,14 @@ body {
 
 .nav__list .nav__items a {
   color: #b0b0b0;
+}
+
+.greedy-nav a {
+  color: #ffffff;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #4a4a4a;
 }
 
 .archive__item-teaser img {
