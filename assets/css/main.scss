@@ -7,6 +7,52 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// Custom styles for a darker theme
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.page__content {
+  color: #e0e0e0;
+}
+
+.site-title, .page__title, .page__meta, .archive__item-title {
+  color: #ffffff;
+}
+
+.nav__list .nav__items a {
+  color: #b0b0b0;
+}
+
+.greedy-nav a {
+  color: #ffffff;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #4a4a4a;
+}
+
+.archive__item-teaser img {
+  filter: brightness(0.8);
+}
+
+.btn--primary {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.btn--primary:hover {
+  background-color: #2a2a2a;
+}
+
+input, textarea {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-color: #3a3a3a;
+}
+
+// Existing custom styles
 .page {
   @media (min-width: 80em) {
     width: 100%;
