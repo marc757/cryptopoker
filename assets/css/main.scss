@@ -35,6 +35,15 @@ body {
   &:hover {
     color: #4a4a4a !important;
   }
+
+  .masthead {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.initial-content, .search-content {
+  margin-top: 0 !important;
+}
 }
 
 .page__content {
