@@ -1,7 +1,7 @@
 # Site settings
 title: Crypto Poker
 name: "Marc757"
-description: "Un sito dedicato al poker e alle criptovalute."
+description: "A site dedicated to poker and cryptocurrencies."
 url: "https://marc757.github.io"
 baseurl: "/crypto-poker"
 locale: "en-US"
@@ -10,8 +10,8 @@ locale: "en-US"
 author:
   name   : "Marc757"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Appassionato di poker e criptovalute."
-  location: "Italia"
+  bio    : "Passionate about poker and cryptocurrencies."
+  location: "Italy"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -23,7 +23,7 @@ author:
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "dark" # Change this line to "dark"
 
 # Outputting
 permalink: /:categories/:title/
