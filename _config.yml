@@ -4,7 +4,7 @@ name: "Marc757"
 description: "Un sito dedicato al poker e alle criptovalute."
 url: "https://marc757.github.io"
 baseurl: "/crypto-poker"
-locale: "it-IT"
+locale: "en-US"
 
 # Site Author
 author:
