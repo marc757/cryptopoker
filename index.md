@@ -32,7 +32,8 @@ feature_row:
     excerpt: "Gioca da qualsiasi parte del mondo senza restrizioni bancarie."
     url: "/docs/accessibility/"
     btn_class: "btn--primary"
-    btn_label: "Scopri di più"      
+    btn_label: "Scopri di più"
+  - image_path: /assets/images/accessibility.jpg
 ---
 
 {% include feature_row %}
