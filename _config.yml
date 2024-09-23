@@ -64,6 +64,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
   # _docs
   - scope:
       path: "_docs"
