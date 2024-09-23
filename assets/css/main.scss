@@ -35,19 +35,15 @@ body {
   &:hover {
     color: #4a4a4a !important;
   }
-
-  .masthead {
-  border-bottom: none !important;
-  box-shadow: none !important;
 }
 
 .initial-content, .search-content {
   margin-top: 0 !important;
 }
-}
 
 .page__content {
   color: #e0e0e0;
+  margin-top: 0 !important;
 }
 
 .site-title, .page__title, .page__meta, .archive__item-title {
@@ -99,4 +95,24 @@ input, textarea {
 
 .greedy-nav .site-subtitle {
   color: #e0e0e0 !important;
+}
+
+// Remove any potential gaps or lines
+.page__hero,
+.page__hero--overlay {
+  margin-bottom: 0 !important;
+}
+
+.page__hero + .page__content {
+  margin-top: 0 !important;
+}
+
+// Ensure no gap between masthead and content
+.masthead + .initial-content {
+  margin-top: 0 !important;
+}
+
+// Remove any border from the page content
+.page__content {
+  border-top: none !important;
 }
