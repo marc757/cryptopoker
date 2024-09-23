@@ -26,14 +26,13 @@ feature_row:
     url: "/docs/transactions/"
     btn_class: "btn--primary"
     btn_label: "Scopri di più"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/accessibility.jpg
     alt: "accessibilità"
     title: "Accessibilità Globale"
     excerpt: "Gioca da qualsiasi parte del mondo senza restrizioni bancarie."
     url: "/docs/accessibility/"
     btn_class: "btn--primary"
     btn_label: "Scopri di più"
-  - image_path: /assets/images/accessibility.jpg
 ---
 
 {% include feature_row %}
