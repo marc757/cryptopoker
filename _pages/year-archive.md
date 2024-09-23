@@ -1,6 +1,5 @@
----
+Copy---
 title: "Posts by Year"
-permalink: /posts/
+permalink: /year-archive/
 layout: posts
-author_profile: true
 ---
