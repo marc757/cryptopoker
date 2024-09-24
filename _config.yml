@@ -3,7 +3,7 @@ title: Crypto Poker
 name: "Marc757"
 description: "A site dedicated to poker and cryptocurrencies."
 url: "https://marc757.github.io"
-baseurl: "/crypto-poker"
+baseurl: "/cryptopoker"
 locale: "en-US"
 
 # Site Author
