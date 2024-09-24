@@ -35,13 +35,15 @@ body {
   &:hover {
     color: #4a4a4a !important;
   }
-  // Reset any custom margins that might be interfering
+}
+
+// Add spacing between hero image and feature row
 .page__hero--overlay {
-  margin-bottom: 0;
+  margin-bottom: 2em;  // Add margin to the bottom of the hero image
 }
 
 .feature__wrapper {
-  margin-top: 3em;
+  margin-top: 2em;  // Add top margin to the feature wrapper
   margin-bottom: 2em;
 }
 
@@ -53,7 +55,6 @@ body {
 // Remove any custom padding that might be interfering
 .page__content {
   padding-top: 0;
-}
 }
 
 .initial-content, .search-content {
@@ -119,16 +120,17 @@ input, textarea {
 // Remove any potential gaps or lines
 .page__hero,
 .page__hero--overlay {
-  margin-bottom: 0 !important;
-}
-
-.page__hero + .page__content {
-  margin-top: 0 !important;
+  margin-bottom: 2em !important;  // Consistent with earlier change
 }
 
 // Ensure no gap between masthead and content
 .masthead + .initial-content {
   margin-top: 0 !important;
+}
+
+// Remove any border from the page content
+.page__content {
+  border-top: none !important;
 }
 
 // Remove any border from the page content
