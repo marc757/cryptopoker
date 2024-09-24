@@ -19,14 +19,14 @@ feature_row:
     url: "/docs/security/"
     btn_class: "btn--primary"
     btn_label: "Scopri di più"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/velocity.jpg
     alt: "velocità"
     title: "Transazioni Veloci"
     excerpt: "Depositi e prelievi istantanei grazie alla tecnologia blockchain."
     url: "/docs/transactions/"
     btn_class: "btn--primary"
     btn_label: "Scopri di più"
-  - image_path: /assets/images/accessibility.jpg
+  - image_path: /assets/images/world.jpg
     alt: "accessibilità"
     title: "Accessibilità Globale"
     excerpt: "Gioca da qualsiasi parte del mondo senza restrizioni bancarie."
