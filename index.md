@@ -12,7 +12,7 @@ excerpt: >
   Scopri come la blockchain sta rivoluzionando il mondo del poker online.<br />
   <small><a href="https://github.com/yourusername/your-repo">Ultima versione v1.0.0</a></small>
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/security.jpg
     alt: "sicurezza"
     title: "Massima Sicurezza"
     excerpt: "Le transazioni in criptovaluta garantiscono la massima sicurezza e privacy per i tuoi fondi."
