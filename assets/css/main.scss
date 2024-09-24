@@ -35,6 +35,25 @@ body {
   &:hover {
     color: #4a4a4a !important;
   }
+  // Reset any custom margins that might be interfering
+.page__hero--overlay {
+  margin-bottom: 0;
+}
+
+.feature__wrapper {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+// Ensure proper spacing for feature rows
+.feature__item {
+  margin-bottom: 2em;
+}
+
+// Remove any custom padding that might be interfering
+.page__content {
+  padding-top: 0;
+}
 }
 
 .initial-content, .search-content {
